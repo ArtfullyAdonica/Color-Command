@@ -212,7 +212,7 @@ function resetGame(text) {
   playerSequence = [];
   roundCount = 0;
   alert(text);
-  setText(heading, "Simon Says");
+  setText(heading, "Color Command");
   startButton.classList.remove("hidden");
   statusSpan.classList.add("hidden");
   padContainer.classList.add("unclickable");
